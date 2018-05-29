@@ -26,8 +26,7 @@ function getPosition(position){
         
         // toggle button
         $(".btn").on("click", function(){
-            toggle = !toggle;
-            if(toggle){
+            if(toggle == true){
                 $("localTemp").html(tempF + "&deg;F");
             } else {
                 $("localTemp").html(tempC + "&deg;C");
